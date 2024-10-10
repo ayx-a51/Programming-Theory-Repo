@@ -15,7 +15,7 @@ public class Character : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    // This function can be overridden in child classes
+    // ABSTRACTION
     protected virtual void Talk()
     {
         Debug.Log(TypeName + " is talking.");

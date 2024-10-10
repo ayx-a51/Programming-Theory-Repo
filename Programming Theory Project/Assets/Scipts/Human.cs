@@ -2,14 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// INHERITANCE
 public class Human : Character
 {
+    // POLYMORPHISM
     protected override void Talk()
     {
         Debug.Log("I am a human, and I'm the best!");
         StartCoroutine(ShowDialogueText("I am a human, and I'm the best!"));
     }
 
+    // POLYMORPHISM
     public override void OnMouseDown()
     {
         Talk();

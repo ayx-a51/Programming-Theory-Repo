@@ -14,6 +14,7 @@ public class SceneOverlay : MonoBehaviour
         Undead
     }
 
+    // ENCAPSULATION
     public CharacterRace CurrentRace { get; private set; }
 
     [SerializeField] private TMP_Dropdown raceDropdown;
